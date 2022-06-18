@@ -3,7 +3,7 @@ import Layout from "components/layout";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import NextNProgress from "nextjs-progressbar";
 const client = new ApolloClient({
-  uri: "http://localhost:4001/",
+  uri: "https://nono77.herokuapp.com/",
   cache: new InMemoryCache()
 });
 
